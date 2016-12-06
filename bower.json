@@ -2,7 +2,7 @@
   "name": "ng-fastclick-cps",
   "description": "Allows bubbling up of ng-fastclick to allow for support of other plugins like angular-daterangepicker",
   "main": "dist/index.min.js",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "repository": {
     "type": "git",
     "url": "git://github.com/pinchnzoom/ng-fastclick-cps.git"
