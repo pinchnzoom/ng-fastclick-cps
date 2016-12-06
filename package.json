@@ -1,10 +1,10 @@
 {
-  "name": "ng-fastclic-cpsk",
-  "version": "1.0.2",
+  "name": "ng-fastclick-cps",
+  "version": "1.0.0",
   "scripts": {
     "build": "gulp"
   },
-  "author": "Paul Sweeney <paul@fullscreen.net>",
+  "author": "pinchnzoom",
   "license": "MIT",
   "dependencies": {
     "fastclick": "^1.0.6",

@@ -1,9 +1,14 @@
 {
   "name": "ng-fastclick-cps",
+  "description": "Allows bubbling up of ng-fastclick to allow for support of other plugins like angular-daterangepicker",
   "main": "dist/index.min.js",
-  "version": "1.0.2",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pinchnzoom/ng-fastclick-cps.git"
+  },
   "authors": [
-    "Paul Sweeney <paul@fullscreen.net>"
+    "pinchnzoom"
   ],
   "moduleType": [
     "globals"
@@ -15,11 +20,16 @@
     "node_modules",
     "bower_components",
     "src",
-    "test",
+    "test", 
     "tests",
     "gulpfile.js"
   ],
   "dependencies": {
     "angular": ">1.3.0"
-  }
+  },
+  "keywords": [
+    "fastclick",
+    "ng-fastclick",
+    "angular-fastclick"
+  ]
 }
