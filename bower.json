@@ -1,5 +1,5 @@
 {
-  "name": "ng-fastclick",
+  "name": "ng-fastclick-cps",
   "main": "dist/index.min.js",
   "version": "1.0.2",
   "authors": [
