@@ -254,7 +254,6 @@
 			if ((/\bneedsclick\b/).test(target.className)) {
 				return true;
 			}
-
 			target = target.parentNode;
 		} while (target);
 
