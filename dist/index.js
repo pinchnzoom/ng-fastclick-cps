@@ -250,7 +250,15 @@
 			return true;
 		}
 
-		return (/\bneedsclick\b/).test(target.className);
+		do {
+			if ((/\bneedsclick\b/).test(target.className)) {
+				return true;
+			}
+
+			target = target.parentNode;
+		} while (target);
+
+		return false;
 	};
 
 
@@ -599,7 +607,7 @@
 			}
 		}
 
-		// Prevent the actual click from going through - unless the target node is marked as requiring
+		// Prevent the actual click from going though - unless the target node is marked as requiring
 		// real clicks or if it is in the whitelist in which case only non-programmatic clicks are permitted.
 		if (!this.needsClick(targetElement)) {
 			event.preventDefault();
